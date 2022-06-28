@@ -1,0 +1,427 @@
+error: undefined {"code":8000,"codeName":"AtlasError","ok":0}
+error: undefined {"code":8000,"codeName":"AtlasError","ok":0}
+error: undefined {"code":8000,"codeName":"AtlasError","ok":0}
+error: undefined {"code":8000,"codeName":"AtlasError","ok":0}
+error: undefined {"code":8000,"codeName":"AtlasError","ok":0}
+error: undefined {"code":8000,"codeName":"AtlasError","ok":0}
+[31merror[39m: undefined {"code":8000,"codeName":"AtlasError","ok":0,"timestamp":"2022-06-06T11:05:32.876Z"}
+error: undefined {"code":8000,"codeName":"AtlasError","ok":0,"timestamp":"2022-06-06T11:06:35.264Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-06T11:13:24.684Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-06T11:18:19.740Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-06T11:57:43.053Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-06T12:01:24.125Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-06T12:14:04.275Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-06T13:31:04.212Z"}
+error: undefined {"_message":"User validation failed","errors":{"username":{"kind":"required","message":"Path `username` is required.","name":"ValidatorError","path":"username","properties":{"message":"Path `username` is required.","path":"username","type":"required"}}},"timestamp":"2022-06-06T14:21:32.789Z"}
+error: ValidationError: username: Path `username` is required. {"timestamp":"2022-06-06T14:21:32.803Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-06T14:23:41.633Z"}
+error: undefined {"_message":"User validation failed","errors":{"username":{"kind":"required","message":"Path `username` is required.","name":"ValidatorError","path":"username","properties":{"message":"Path `username` is required.","path":"username","type":"required"}}},"timestamp":"2022-06-06T14:23:48.355Z"}
+error: ValidationError: username: Path `username` is required. {"timestamp":"2022-06-06T14:23:48.356Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-06T14:28:37.335Z"}
+error: undefined {"_message":"User validation failed","errors":{"username":{"kind":"required","message":"Path `username` is required.","name":"ValidatorError","path":"username","properties":{"message":"Path `username` is required.","path":"username","type":"required"}}},"timestamp":"2022-06-06T14:28:46.817Z"}
+error: ValidationError: username: Path `username` is required. {"timestamp":"2022-06-06T14:28:46.819Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-06T14:28:58.040Z"}
+error: undefined {"_message":"User validation failed","errors":{"username":{"kind":"required","message":"Path `username` is required.","name":"ValidatorError","path":"username","properties":{"message":"Path `username` is required.","path":"username","type":"required"}}},"timestamp":"2022-06-06T14:29:16.496Z"}
+error: ValidationError: username: Path `username` is required. {"timestamp":"2022-06-06T14:29:16.498Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-06T14:30:40.242Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-06T14:30:57.435Z"}
+error: undefined {"_message":"User validation failed","errors":{"username":{"kind":"required","message":"Path `username` is required.","name":"ValidatorError","path":"username","properties":{"message":"Path `username` is required.","path":"username","type":"required"}}},"timestamp":"2022-06-06T14:31:00.008Z"}
+error: ValidationError: username: Path `username` is required. {"timestamp":"2022-06-06T14:31:00.014Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-06T14:31:46.657Z"}
+error: undefined {"_message":"User validation failed","errors":{"username":{"kind":"required","message":"Path `username` is required.","name":"ValidatorError","path":"username","properties":{"message":"Path `username` is required.","path":"username","type":"required"}}},"timestamp":"2022-06-06T14:31:57.078Z"}
+error: ValidationError: username: Path `username` is required. {"timestamp":"2022-06-06T14:31:57.079Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-06T14:32:45.585Z"}
+error: undefined {"_message":"User validation failed","errors":{"username":{"kind":"required","message":"Path `username` is required.","name":"ValidatorError","path":"username","properties":{"message":"Path `username` is required.","path":"username","type":"required"}}},"timestamp":"2022-06-06T14:32:50.105Z"}
+error: ValidationError: username: Path `username` is required. {"timestamp":"2022-06-06T14:32:50.105Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-06T14:33:05.636Z"}
+error: undefined {"_message":"User validation failed","errors":{"username":{"kind":"required","message":"Path `username` is required.","name":"ValidatorError","path":"username","properties":{"message":"Path `username` is required.","path":"username","type":"required"}}},"timestamp":"2022-06-06T14:33:07.104Z"}
+error: ValidationError: username: Path `username` is required. {"timestamp":"2022-06-06T14:33:07.106Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-06T14:33:19.391Z"}
+error: undefined {"_message":"User validation failed","errors":{"username":{"kind":"required","message":"Path `username` is required.","name":"ValidatorError","path":"username","properties":{"message":"Path `username` is required.","path":"username","type":"required"}}},"timestamp":"2022-06-06T14:33:21.901Z"}
+error: ValidationError: username: Path `username` is required. {"timestamp":"2022-06-06T14:33:21.902Z"}
+error: undefined {"_message":"User validation failed","errors":{"username":{"kind":"required","message":"Path `username` is required.","name":"ValidatorError","path":"username","properties":{"message":"Path `username` is required.","path":"username","type":"required"}}},"timestamp":"2022-06-06T16:03:11.746Z"}
+error: ValidationError: username: Path `username` is required. {"timestamp":"2022-06-06T16:03:11.763Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-06T16:13:53.788Z"}
+error: undefined {"_message":"User validation failed","errors":{"username":{"kind":"required","message":"Path `username` is required.","name":"ValidatorError","path":"username","properties":{"message":"Path `username` is required.","path":"username","type":"required"}}},"timestamp":"2022-06-06T16:14:02.281Z"}
+error: ValidationError: username: Path `username` is required. {"timestamp":"2022-06-06T16:14:02.284Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-06T16:15:33.059Z"}
+error: undefined {"_message":"User validation failed","errors":{"username":{"kind":"required","message":"Path `username` is required.","name":"ValidatorError","path":"username","properties":{"message":"Path `username` is required.","path":"username","type":"required"}}},"timestamp":"2022-06-06T16:15:45.980Z"}
+error: undefined {"_message":"User validation failed","errors":{"username":{"kind":"required","message":"Path `username` is required.","name":"ValidatorError","path":"username","properties":{"message":"Path `username` is required.","path":"username","type":"required"}}},"timestamp":"2022-06-06T16:15:45.982Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-06T16:16:12.528Z"}
+error: undefined {"_message":"User validation failed","errors":{"username":{"kind":"required","message":"Path `username` is required.","name":"ValidatorError","path":"username","properties":{"message":"Path `username` is required.","path":"username","type":"required"}}},"timestamp":"2022-06-06T16:17:55.376Z"}
+error: ValidationError: username: Path `username` is required. {"timestamp":"2022-06-06T16:17:55.383Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-06T16:47:19.425Z"}
+error: undefined {"_message":"User validation failed","errors":{"username":{"kind":"required","message":"Path `username` is required.","name":"ValidatorError","path":"username","properties":{"message":"Path `username` is required.","path":"username","type":"required"}}},"timestamp":"2022-06-06T16:47:29.324Z"}
+error: ValidationError: username: Path `username` is required. {"timestamp":"2022-06-06T16:47:29.329Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-06T16:48:02.830Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-06T17:11:34.102Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-06T17:11:48.643Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-06T17:11:56.678Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-06T17:12:01.647Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-06T17:20:45.189Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-06T17:25:09.820Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-06T17:33:07.684Z"}
+error: undefined {"timestamp":"2022-06-06T17:33:51.268Z"}
+error: undefined {"timestamp":"2022-06-06T17:34:01.363Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-06T17:41:32.890Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-06T18:31:17.697Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-06T18:32:47.144Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-06T18:34:29.460Z"}
+error: undefined {"kind":"ObjectId","path":"_id","reason":{},"stringValue":"\"629e01fcd40d6f344077b0aba\"","timestamp":"2022-06-06T18:35:58.429Z","value":"629e01fcd40d6f344077b0aba","valueType":"string"}
+error: CastError: Cast to ObjectId failed for value "629e01fcd40d6f344077b0aba" (type string) at path "_id" for model "User" {"timestamp":"2022-06-06T18:35:58.433Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-06T18:36:56.596Z"}
+error: undefined {"kind":"ObjectId","path":"_id","reason":{},"stringValue":"\"629e01fcd40d6f344077b0aba\"","timestamp":"2022-06-06T18:37:06.790Z","value":"629e01fcd40d6f344077b0aba","valueType":"string"}
+error: CastError: Cast to ObjectId failed for value "629e01fcd40d6f344077b0aba" (type string) at path "_id" for model "User" {"timestamp":"2022-06-06T18:37:06.793Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-06T18:45:45.440Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-06T18:47:14.727Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-06T19:19:26.759Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-08T21:03:30.320Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-09T16:01:46.379Z"}
+error: undefined {"kind":"ObjectId","path":"_id","reason":{},"stringValue":"\"davidka@email.huu\"","timestamp":"2022-06-09T16:02:54.209Z","value":"davidka@email.huu","valueType":"string"}
+error: CastError: Cast to ObjectId failed for value "davidka@email.huu" (type string) at path "_id" for model "User" {"timestamp":"2022-06-09T16:02:54.210Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-09T16:03:29.149Z"}
+error: undefined {"kind":"ObjectId","path":"_id","reason":{},"stringValue":"\"davidka@email.huu\"","timestamp":"2022-06-09T16:03:34.237Z","value":"davidka@email.huu","valueType":"string"}
+error: Cast to ObjectId failed for value "davidka@email.huu" (type string) at path "_id" for model "User" {"timestamp":"2022-06-09T16:03:34.239Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-09T16:03:56.115Z"}
+error: undefined {"kind":"ObjectId","path":"_id","reason":{},"stringValue":"\"davidka@email.huu\"","timestamp":"2022-06-09T16:04:00.568Z","value":"davidka@email.huu","valueType":"string"}
+error: Cast to ObjectId failed for value "davidka@email.huu" (type string) at path "_id" for model "User" {"timestamp":"2022-06-09T16:04:00.569Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-09T16:04:37.852Z"}
+error: undefined {"kind":"ObjectId","path":"_id","reason":{},"stringValue":"\"davidka@email.huu\"","timestamp":"2022-06-09T16:04:45.115Z","value":"davidka@email.huu","valueType":"string"}
+error: CastError: Cast to ObjectId failed for value "davidka@email.huu" (type string) at path "_id" for model "User" {"timestamp":"2022-06-09T16:04:45.116Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-09T16:15:28.645Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-09T16:16:04.176Z"}
+error: undefined {"kind":"ObjectId","path":"_id","reason":{},"stringValue":"\"davidka@email.hu\"","timestamp":"2022-06-09T16:19:17.773Z","value":"davidka@email.hu","valueType":"string"}
+error: Cast to ObjectId failed for value "davidka@email.hu" (type string) at path "_id" for model "User" {"timestamp":"2022-06-09T16:19:17.774Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-09T16:23:33.870Z"}
+error: undefined {"code":11000,"index":0,"keyPattern":{"email":1},"keyValue":{"email":"szentivanlady@tarr.hu"},"timestamp":"2022-06-09T16:24:50.803Z"}
+error: E11000 duplicate key error collection: test.users index: email_1 dup key: { email: "szentivanlady@tarr.hu" } {"timestamp":"2022-06-09T16:24:50.804Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-09T19:51:15.328Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-10T10:16:32.252Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-10T10:19:14.981Z"}
+error: undefined {"timestamp":"2022-06-10T10:19:21.334Z"}
+error: undefined {"timestamp":"2022-06-10T10:19:31.013Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-10T10:21:08.331Z"}
+error: undefined {"timestamp":"2022-06-10T10:21:13.237Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-10T10:22:01.506Z"}
+error: undefined {"timestamp":"2022-06-10T10:22:03.111Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-10T10:22:26.311Z"}
+error: undefined {"timestamp":"2022-06-10T10:22:33.533Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-10T10:23:54.016Z"}
+error: undefined {"timestamp":"2022-06-10T10:23:58.478Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-10T10:24:08.958Z"}
+error: undefined {"timestamp":"2022-06-10T10:24:13.144Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-10T10:24:39.346Z"}
+error: undefined {"timestamp":"2022-06-10T10:24:42.192Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-10T10:26:19.034Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-10T10:34:44.613Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-10T10:38:35.289Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-10T10:48:17.814Z"}
+error: undefined {"body":"\r\n    \"title\": \"Fake New No1\",\r\n    \"description\": \"Ez egy próba fakeNew\",\r\n    \"body\": \"loremimspum loremimspum loremimspum loremimspum loremimspum loremimspum loremimspum loremimspum loremimspum \",\r\n    \"tags\": [\"tag1\", \"tag2\"]\r\n}","expose":true,"status":400,"statusCode":400,"timestamp":"2022-06-10T10:48:49.942Z","type":"entity.parse.failed"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-10T10:49:28.809Z"}
+error: undefined {"body":"\r\n    \"title\": \"Fake New No1\",\r\n    \"description\": \"Ez egy próba fakeNew\",\r\n    \"body\": \"loremimspum loremimspum loremimspum loremimspum loremimspum loremimspum loremimspum loremimspum loremimspum \",\r\n    \"tags\": [\"tag1\", \"tag2\"]\r\n}","expose":true,"status":400,"statusCode":400,"timestamp":"2022-06-10T10:49:32.594Z","type":"entity.parse.failed"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-10T10:50:20.056Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-10T10:56:06.790Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-10T10:56:52.556Z"}
+error: undefined {"body":"\r\n    \"title\": \"Fake New No1\",\r\n    \"description\": \"Ez egy próba fakeNew\",\r\n    \"body\": \"loremimspum loremimspum loremimspum loremimspum loremimspum loremimspum loremimspum loremimspum loremimspum \",\r\n    \"tags\": [\"tag1\", \"tag2\"]\r\n}","expose":true,"status":400,"statusCode":400,"timestamp":"2022-06-10T10:56:58.030Z","type":"entity.parse.failed"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-10T11:00:20.667Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-10T11:05:31.525Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-10T11:08:56.328Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-10T11:22:40.571Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-10T11:22:42.239Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-10T12:18:15.809Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-10T12:18:48.121Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-10T12:18:52.403Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-10T14:02:28.510Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-10T14:05:41.461Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-10T14:06:54.927Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-10T14:09:04.432Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-14T19:05:48.184Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-25T19:16:17.664Z"}
+error: undefined {"timestamp":"2022-06-25T19:16:48.150Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-25T19:17:39.664Z"}
+error: undefined {"timestamp":"2022-06-25T19:17:48.150Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-25T19:18:16.550Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-25T19:41:53.509Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-25T20:14:19.797Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-25T20:20:39.223Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-25T20:40:11.340Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-25T20:42:22.648Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-25T21:01:25.088Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-25T21:01:29.813Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-25T21:13:31.020Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-25T21:14:30.267Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-25T21:15:06.257Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-25T21:16:36.650Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-25T21:17:13.218Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-25T21:18:35.307Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-25T21:20:10.473Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-25T21:22:35.164Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-25T21:23:00.931Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-25T21:25:07.274Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-25T21:27:28.993Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T04:11:25.211Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T04:13:19.604Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T04:14:35.015Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T04:15:55.589Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T04:17:25.588Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T04:22:52.170Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T04:34:45.759Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T04:35:38.482Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T04:36:42.547Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T04:37:49.216Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T04:41:08.559Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T04:41:29.729Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T04:57:02.063Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T05:00:10.679Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T05:00:32.947Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T05:01:39.992Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T06:07:15.866Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T06:09:26.397Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T06:09:46.310Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T06:10:03.667Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T06:10:26.513Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T06:10:45.161Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T06:18:03.809Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T06:18:33.285Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T06:19:11.880Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T06:19:35.878Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T06:20:12.209Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T06:20:39.014Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T06:21:13.656Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T06:21:43.808Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T06:22:12.325Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T06:22:40.982Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T06:22:50.318Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T06:23:08.205Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T06:24:19.392Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T06:25:06.232Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T06:28:41.852Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T06:32:38.730Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T06:33:51.328Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T06:34:19.587Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T06:35:18.703Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T06:35:38.065Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T06:36:04.953Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T06:36:30.435Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T06:37:06.293Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T06:39:33.071Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T06:41:29.587Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T06:41:44.806Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T06:42:06.904Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T06:43:48.301Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T06:44:24.431Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T06:44:51.786Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T07:42:40.450Z"}
+error: email or pw is incorrect {"timestamp":"2022-06-26T07:42:46.905Z"}
+error: email or pw is incorrect {"timestamp":"2022-06-26T07:43:15.004Z"}
+error: email or pw is incorrect {"timestamp":"2022-06-26T07:44:33.290Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T07:47:44.937Z"}
+error: email or pw is incorrect {"timestamp":"2022-06-26T07:47:50.123Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T07:48:00.364Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T07:50:19.094Z"}
+error: email or pw is incorrect {"timestamp":"2022-06-26T07:50:24.766Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T07:50:45.060Z"}
+error: email or pw is incorrect {"timestamp":"2022-06-26T07:50:45.859Z"}
+error: email or pw is incorrect {"timestamp":"2022-06-26T07:50:47.579Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T07:51:02.702Z"}
+error: email or pw is incorrect {"timestamp":"2022-06-26T07:51:12.637Z"}
+error: email or pw is incorrect {"timestamp":"2022-06-26T07:51:45.159Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T07:51:45.955Z"}
+error: email or pw is incorrect {"timestamp":"2022-06-26T07:52:28.681Z"}
+error: email or pw is incorrect {"timestamp":"2022-06-26T07:56:07.222Z"}
+error: email or pw is incorrect {"timestamp":"2022-06-26T07:59:01.302Z"}
+error: email or pw is incorrect {"timestamp":"2022-06-26T08:03:04.147Z"}
+error: email or pw is incorrect {"timestamp":"2022-06-26T08:03:56.603Z"}
+error: email or pw is incorrect {"timestamp":"2022-06-26T08:04:19.481Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T08:10:57.967Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T08:58:38.168Z"}
+error: Invalid user authentication! {"timestamp":"2022-06-26T09:02:18.958Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T09:11:10.754Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T09:12:37.381Z"}
+error: Invalid user authentication! {"timestamp":"2022-06-26T09:17:01.870Z"}
+error: Invalid user authentication! {"timestamp":"2022-06-26T09:17:01.880Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T09:30:51.798Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T09:54:03.979Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T09:57:46.434Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T10:01:49.224Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T10:03:24.689Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T10:05:16.593Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T10:09:41.141Z"}
+error: Invalid user authentication! {"timestamp":"2022-06-26T10:11:57.922Z"}
+error: Invalid user authentication! {"timestamp":"2022-06-26T10:11:57.932Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T10:28:42.517Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T10:31:18.784Z"}
+error: Invalid user authentication! {"timestamp":"2022-06-26T10:33:50.131Z"}
+error: Invalid user authentication! {"timestamp":"2022-06-26T10:33:50.138Z"}
+error: Invalid user authentication! {"timestamp":"2022-06-26T10:34:07.682Z"}
+error: Invalid user authentication! {"timestamp":"2022-06-26T10:34:07.690Z"}
+error: Invalid user authentication! {"timestamp":"2022-06-26T10:34:10.972Z"}
+error: Invalid user authentication! {"timestamp":"2022-06-26T10:34:10.976Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T10:45:53.132Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T10:59:57.020Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T11:00:44.065Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T11:12:34.660Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T11:23:34.513Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T11:23:51.797Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T11:25:27.056Z"}
+error: Cast to ObjectId failed for value "62b82d07ad1184ae58d08b57-negyedik-cikk" (type string) at path "_id" for model "Article" {"timestamp":"2022-06-26T11:25:40.604Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T11:27:18.172Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T12:04:57.879Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T12:06:23.525Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T12:07:29.948Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T12:09:58.771Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T12:13:06.267Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T12:13:53.785Z"}
+error: email or pw is incorrect {"timestamp":"2022-06-26T12:27:31.241Z"}
+error: email or pw is incorrect {"timestamp":"2022-06-26T12:27:37.619Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T12:31:29.426Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T12:32:37.035Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T12:33:35.545Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T12:34:49.889Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T12:34:54.917Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T12:36:06.539Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T12:52:11.048Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T13:00:07.483Z"}
+error: Invalid user authentication! {"timestamp":"2022-06-26T13:00:10.361Z"}
+error: Invalid user authentication! {"timestamp":"2022-06-26T13:00:10.368Z"}
+error: Invalid user authentication! {"timestamp":"2022-06-26T13:00:15.354Z"}
+error: Invalid user authentication! {"timestamp":"2022-06-26T13:00:15.359Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T13:00:30.645Z"}
+error: Invalid user authentication! {"timestamp":"2022-06-26T13:00:40.413Z"}
+error: email or pw is incorrect {"timestamp":"2022-06-26T13:05:33.198Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T13:08:57.666Z"}
+error: Invalid user authentication! {"timestamp":"2022-06-26T13:11:39.622Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T13:12:48.515Z"}
+error: Invalid user authentication! {"timestamp":"2022-06-26T13:12:50.985Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T13:13:53.792Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T14:09:26.635Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T14:09:51.796Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T14:09:59.112Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T14:23:33.781Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T14:24:04.525Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T14:24:56.803Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T14:25:06.882Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T14:25:18.912Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T14:26:07.012Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T14:30:55.930Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T14:31:37.519Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T14:32:52.367Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T14:34:53.094Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T14:36:22.094Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T14:36:55.883Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T14:37:47.445Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T14:40:28.290Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T14:42:53.715Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T15:09:43.654Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T15:12:08.185Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T15:13:48.877Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T15:14:59.867Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T15:16:37.548Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T15:18:03.590Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T15:19:15.625Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T15:19:24.312Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T15:19:40.711Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T15:32:10.592Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T15:33:35.719Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T15:38:48.655Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T15:39:38.998Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T15:40:38.173Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T15:42:57.758Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T15:44:05.514Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T15:55:55.019Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T15:59:10.445Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T16:58:43.160Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T17:04:50.916Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T17:05:29.755Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T17:37:34.305Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T17:37:53.127Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T17:39:22.083Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T17:39:49.793Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T17:40:26.011Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T17:44:50.196Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T17:48:55.124Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T17:55:09.595Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T17:57:04.703Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T17:58:37.559Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T18:00:30.149Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T18:01:17.625Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T18:07:06.654Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T18:08:44.231Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T18:13:36.736Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T18:17:24.544Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T18:19:54.290Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T18:25:27.552Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T18:27:10.230Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T18:28:25.410Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T18:28:51.183Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T18:38:56.946Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T18:39:18.317Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T18:40:35.588Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T18:53:29.500Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T19:15:10.785Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T19:36:45.848Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T19:39:13.060Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T19:40:38.949Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T19:44:30.421Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T19:45:21.514Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T19:52:42.986Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T19:54:43.207Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T19:55:26.845Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T19:56:05.039Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T19:56:38.324Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T19:57:24.343Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T20:15:07.159Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T20:15:27.104Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T20:16:29.818Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T20:21:12.072Z"}
+error: undefined {"timestamp":"2022-06-26T20:21:27.882Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T20:23:10.900Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T20:24:17.368Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T20:29:22.945Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T20:34:01.333Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T20:37:23.351Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T20:38:23.280Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T21:58:48.162Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-26T22:06:53.636Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-27T04:01:33.831Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-27T04:03:44.389Z"}
+error: email or pw is incorrect {"timestamp":"2022-06-27T04:04:51.016Z"}
+error: Invalid user authentication! {"timestamp":"2022-06-27T04:06:49.425Z"}
+error: Invalid user authentication! {"timestamp":"2022-06-27T04:07:12.224Z"}
+error: Invalid user authentication! {"timestamp":"2022-06-27T04:07:28.524Z"}
+error: undefined {"kind":"ObjectId","path":"_id","reason":{},"stringValue":"\"davidka@email.hu\"","timestamp":"2022-06-27T04:09:43.214Z","value":"davidka@email.hu","valueType":"string"}
+error: Cast to ObjectId failed for value "davidka@email.hu" (type string) at path "_id" for model "User" {"timestamp":"2022-06-27T04:09:43.216Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-27T04:14:56.214Z"}
+error: undefined {"_message":"Event validation failed","errors":{"public":{"kind":"Boolean","message":"Cast to Boolean failed for value \"\" (type string) at path \"public\" because of \"CastError\"","name":"CastError","path":"public","reason":{"kind":"boolean","message":"Cast to boolean failed for value \"\" (type string) at path \"undefined\"","name":"CastError","stringValue":"\"\"","value":"","valueType":"string"},"stringValue":"\"\"","value":"","valueType":"string"}},"timestamp":"2022-06-27T04:18:12.107Z"}
+error: Event validation failed: public: Cast to Boolean failed for value "" (type string) at path "public" because of "CastError" {"timestamp":"2022-06-27T04:18:12.107Z"}
+error: Invalid user authentication! {"timestamp":"2022-06-27T07:30:29.698Z"}
+error: Invalid user authentication! {"timestamp":"2022-06-27T07:30:49.389Z"}
+error: email or pw is incorrect {"timestamp":"2022-06-27T07:32:55.565Z"}
+error: Invalid user authentication! {"timestamp":"2022-06-27T07:33:01.706Z"}
+error: email or pw is incorrect {"timestamp":"2022-06-27T07:53:14.911Z"}
+error: email or pw is incorrect {"timestamp":"2022-06-27T07:53:19.512Z"}
+error: email or pw is incorrect {"timestamp":"2022-06-27T08:29:38.489Z"}
+error: Invalid user authentication! {"timestamp":"2022-06-27T08:31:43.521Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-27T15:45:04.566Z"}
+error: Invalid user authentication! {"timestamp":"2022-06-27T15:55:13.837Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-27T17:36:28.376Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-27T17:37:51.729Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-27T17:38:47.389Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-27T17:42:24.741Z"}
+error: Invalid user authentication! {"timestamp":"2022-06-27T17:43:29.729Z"}
+error: Invalid user authentication! {"timestamp":"2022-06-27T17:43:41.913Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-27T17:46:33.747Z"}
+error: undefined {"_message":"User validation failed","errors":{"email":{"kind":"required","message":"Path `email` is required.","name":"ValidatorError","path":"email","properties":{"message":"Path `email` is required.","path":"email","type":"required"}},"password":{"kind":"required","message":"Path `password` is required.","name":"ValidatorError","path":"password","properties":{"message":"Path `password` is required.","path":"password","type":"required"}},"username":{"kind":"required","message":"Path `username` is required.","name":"ValidatorError","path":"username","properties":{"message":"Path `username` is required.","path":"username","type":"required"}}},"timestamp":"2022-06-27T17:46:39.042Z"}
+error: User validation failed: username: Path `username` is required., password: Path `password` is required., email: Path `email` is required. {"timestamp":"2022-06-27T17:46:39.044Z"}
+error: undefined {"_message":"User validation failed","errors":{"email":{"kind":"required","message":"Path `email` is required.","name":"ValidatorError","path":"email","properties":{"message":"Path `email` is required.","path":"email","type":"required"}},"password":{"kind":"required","message":"Path `password` is required.","name":"ValidatorError","path":"password","properties":{"message":"Path `password` is required.","path":"password","type":"required"}},"username":{"kind":"required","message":"Path `username` is required.","name":"ValidatorError","path":"username","properties":{"message":"Path `username` is required.","path":"username","type":"required"}}},"timestamp":"2022-06-27T17:47:05.920Z"}
+error: User validation failed: username: Path `username` is required., password: Path `password` is required., email: Path `email` is required. {"timestamp":"2022-06-27T17:47:05.921Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-27T17:49:44.193Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-27T17:51:41.193Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-27T19:55:21.133Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-28T18:27:51.680Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-28T18:47:43.088Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-28T18:48:19.534Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-28T18:56:12.637Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-28T18:57:42.326Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-28T18:58:51.786Z"}
+info: App is listening at localhost:3000 {"timestamp":"2022-06-28T19:07:20.273Z"}

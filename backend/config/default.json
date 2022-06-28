@@ -1,0 +1,8 @@
+{
+  "port": 3000,
+  "database": {
+    "username": "remek_access",
+    "password": "okKFDxKngednBVm0",
+    "host": "@democluster.hhfbr.mongodb.net/?retryWrites=true&w=majority"
+  }
+}

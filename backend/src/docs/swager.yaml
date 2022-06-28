@@ -1,0 +1,467 @@
+openapi: 3.0.2
+info:
+  title: fake news
+  description: This is a blog, where we accept only fake news
+  contact:
+    name: Nagy Dávid
+    email: nagy.david.pm@gmail.com
+  version: 1.0.0
+servers:
+  -
+    url: http://localhost:3000
+    description: Server for development
+  -
+    url: http://fakenews.com
+    description: Server for production
+paths:
+  /article:
+    get:
+      tags:
+        - article
+      summary: Getting all the articles
+      description: Gets all the articles stored in the database with basic properties
+      responses:
+        200:
+          description: Successful request
+        204:
+          description: No content
+    post:
+      tags:
+        - article
+      summary: Creating a new article
+      description: Saving a new article object in the database
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Article'
+      responses:
+        201:
+          description: Article created
+        400:
+          description: Bad request
+        401:
+          description: Unauthorized user
+        409:
+          description: Article title already exists
+
+
+  /article/{slug}:
+    get:
+      tags:
+      - article
+      summary: Get a single article
+      description: Getting a single article with specified data
+      parameters:
+      - name: slug
+        in: path
+        description: specifies the article
+        required: true
+        schema:
+          $ref: '#/components/schemas/Slug'
+      responses:
+        200:
+          description: Successful request
+        400:
+          description: Bad request
+        404:
+          description: Article not found
+    put:
+      tags:
+      - article
+      summary: Updates article
+      description: Overrides an existing article with new datas
+      parameters:
+      - name: slug
+        in: path
+        description: specifies the article
+        required: true
+        schema:
+          $ref: '#/components/schemas/Slug'
+      responses:
+        200:
+          description: Article updated
+        400:
+          description: Bad request
+        401:
+          description: Unauthorized user
+        409:
+          description: Article title already exists
+    delete:
+      tags:
+      - article
+      summary: Deletes specified article
+      description: Deletes an existing article
+      parameters:
+      - name: slug
+        in: path
+        description: specifies the article
+        required: true
+        schema:
+          $ref: '#/components/schemas/Slug'
+      responses:
+        200:
+          description: Article deleted
+        400:
+          description: Bad request
+        404:
+          description: Article not found
+#  /article/{id}/favourite:
+#    post:
+#      tags:
+#        - article
+#      summary: Favourite an article
+#      description: If signed in, you can favourite an article
+#      parameters:
+#      - name: id
+#        in: path
+#        description: specifies the article
+#        required: true
+#        schema:
+#          title: id
+#          type: string
+#      responses:
+#        200:
+#          description: Article favourited
+#        400:
+#          description: Bad request
+#        404:
+#          description: Article not found
+#        401:
+#          description: Not authorized
+#    delete:
+#      tags:
+#        - article
+#      summary: Unfavourite an article
+#      description: If signed in, you can unfavourite an article
+#      parameters:
+#      - name: id
+#        in: path
+#        description: specifies the article
+#        required: true
+#        schema:
+#          title: id
+#          type: string
+#      responses:
+#        200:
+#          description: Article unfavourited
+#        400:
+#          description: Bad request
+#        404:
+#          description: Article not found
+#        401:
+#          description: Not authorized
+
+  /user:
+    get:
+      tags:
+      - user
+      summary: Gets all the users
+      description: Gets the list of users with the basic properties
+      responses:
+        200:
+          description: Request successful
+        400:
+          description: Bad request
+    post:
+      tags:
+      - user
+      summary: Registers a new user
+      description: Creates a new user in the database
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UserRegister'
+      responses:
+        200:
+          description: User registered
+        400:
+          description: Bad request
+  /user/{email}:
+    get:
+      tags:
+        - user
+      summary: Gets specific user
+      description: Gets all the data about a specific user
+      parameters:
+        - name: email
+          in: path
+          required: true
+          schema:
+            $ref: '#/components/schemas/Email'
+      responses:
+        200:
+          description: Request successful
+        400:
+          description: Bad request
+        404:
+          description: User not found
+    put:
+      tags:
+        - user
+      summary: Updates specific user
+      description: Update a data about a specific user
+      parameters:
+        - name: email
+          in: path
+          required: true
+          schema:
+            $ref: '#/components/schemas/Email'
+      responses:
+        200:
+          description: Update successful
+        400:
+          description: Bad request
+        404:
+          description: User not found
+  /user/{id}:
+    delete:
+      tags:
+        - user
+      summary: Deletes specific user
+      description: Deletes a specific user
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            $ref: '#/components/schemas/Id'
+      responses:
+        200:
+          description: Delete successful
+        400:
+          description: Bad request
+        404:
+          description: User not found
+  /event:
+    get:
+      tags:
+        - event
+      summary: Getting all the events
+      description: Gets all the events stored in the database
+      responses:
+        200:
+          description: Successful request
+        500:
+          description: Internal server error
+    post:
+      tags:
+        - event
+      summary: Creating a new event
+      description: Saving a new event object in the database
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Event'
+      responses:
+        201:
+          description: Event created
+        500:
+          description: Internal Server Error
+        403:
+          description: Forbidden - authentication problem
+  /event/{id}:
+    get:
+      tags:
+        - event
+      summary: Get specific event by id
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            $ref: '#/components/schemas/Id'
+      responses:
+        200:
+          description: Successful request
+        500:
+          description: Internal Server Error
+    put:
+      tags:
+        - event
+      summary: Get specific event by id
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            $ref: '#/components/schemas/Id'
+      responses:
+        200:
+          description: Successful request
+        500:
+          description: Internal Server Error
+    delete:
+      tags:
+        - event
+      summary: Delete specific event by id
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            $ref: '#/components/schemas/Id'
+      responses:
+        200:
+          description: Successful request
+        500:
+          description: Internal Server Error
+
+  /login:
+    post:
+      tags:
+        - login
+      summary: Login user
+      description: Login a user with user credentials
+      requestBody:
+        description: User credentials needed
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UserCredential'
+      responses:
+        200:
+          description: Login request successful
+  /profiles:
+    get:
+      tags:
+        - profiles
+      summary: Get all the info
+      description: Gets all the info about the logged in user
+      responses:
+        200:
+          description: Request successful
+        400:
+          description: Bad request
+        401:
+          description: Not authorized
+
+
+components:
+  schemas:
+    Email:
+      title: E-mail
+      type: string
+      example: davidka@davidkamail.com
+
+    Id:
+      title: ID
+      type: string
+
+    Slug:
+      title: slug
+      type: string
+
+    UserCredential:
+      title: User Credential
+      type: object
+      properties:
+        username:
+          type: string
+          description: Username
+          example: davidka22
+        email:
+          type: string
+          description: E-mail
+          example: davidka@davidmail.com
+
+    UserRegister:
+      title: User Credential
+      type: object
+      properties:
+        username:
+          type: string
+          description: Username
+          example: davidka22
+        email:
+          type: string
+          description: E-mail
+          example: davidka@davidmail.com
+        password:
+          type: string
+          description: Password
+          example: davidka_pw
+
+    Username:
+      title: Username
+      type: string
+
+    Article:
+      title: Article
+      type: object
+      properties:
+        title:
+          type: string
+          description: title of the article
+          example: First human on the Jupiter!
+        description:
+          type: string
+          description: short description of the article
+          example: Some things are important, some are the most important in our life
+        body:
+          type: string
+        tagList:
+          type: array
+          items:
+            type: string
+
+    Event:
+      title: Event
+      type: object
+      properties:
+        name:
+          type: string
+          description: name of the event
+          example: Torgyán József találkozó!
+        cause:
+          type: string
+          description: the purpose of the meeting
+          example: Tüntetés az ingyen sörért
+        nature:
+          type: string
+          description: helyszín jellege, nyuilvános vagy titkos
+          example: publicLocation
+        location:
+          type: object
+          properties:
+            zip:
+              type: string
+              description: zip-code
+              example: 7000
+            city:
+              type: string
+              description: city name
+              example: Sárbogárd
+            address:
+              type: string
+              description: Street number and house number
+              example: Budafoki út 24.
+            floorDoor:
+              type: string
+              description: additional address parameters
+              example: 4. em. 1. a.
+          description: exact location
+        locationCode:
+          type: string
+          description: secret location char
+          example: B
+        public:
+          type: boolean
+          description: needs invitation or freely visitable
+          example: true
+        startTime:
+          type: string
+          description: starting time of the event
+          example: 2022-06-30T21:31
+        endTime:
+          type: string
+          description: ending time of the event
+          example: 2022-06-30T23:31
+        dressCode:
+          type: string
+          description: is there any recommended dress code?
+          example: fehér vizes polo
+
